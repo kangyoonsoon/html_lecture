@@ -1,0 +1,43 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 Property Basic</title>
+    <style>
+/* 문제점: 
+        h1 태그 2개가 붙어있습니다.(div 태그가 영역을 차지하지 않습니다.)
+        색상이 적용된 상자가 자신의 부모를 기준으로 위치를 잡지 않습니다.
+    해결:
+        자손의 postion 속성에 absolute 키워드를 적용하려면 부모에 height 속성을 입력합니다.
+ */
+        .box {
+            width: 100px;height: 100px;
+            position: absolute;
+        }
+        .box:nth-child(1) {
+            background-color: red;
+            left: 10px; top: 10px;
+            z-index: 100;
+            }
+        .box:nth-child(2) {
+            background-color: green;
+            left: 50px; top: 50px;
+            z-index: 10;
+            }
+        .box:nth-child(3) {
+            background-color: blue;
+            left: 100px; top: 100px;
+            z-index: 1;
+            }
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+</body>
+</html>
