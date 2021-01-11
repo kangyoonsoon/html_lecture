@@ -1,0 +1,80 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YoonSoon Kang's portfolio</title>
+    <style>
+        table {
+            width: 30%;
+        }
+        table, td, th {
+            border: 1px solid black;
+        }
+        .box-container {
+            display: flex;
+            flex-direction: row;
+            width: 70%;
+            height: 70%;
+            background-color:ghostwhite;
+            flex-wrap: wrap;
+            margin: 0 auto;
+        }
+        .box {
+            width: 380px; height: 220px; 
+            /* flex-wrap: wrap; */
+            background: cornflowerblue;
+            justify-content: space-between;
+            margin: 20px 30px;
+        }
+ 
+        .project-title {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <section>
+        <h2>About myself</h2>
+        <p>야구를 좋아하는 자바 웹 개발자 -TOFIX-</p>
+    </section>
+    <aside>
+        <h2>Skills</h2>
+        <table>
+            <tr>
+                <th rowspan="2">Front-end</th>
+                <td>HTML5</td>
+                <td>CSS</td>
+                <td>JavaScript</td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <th rowspan="2">Back-end</th>
+                <td>Java</td>
+                <td>Spring</td>
+                <td></td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <th rowspan="2">Database</th>
+                <td>MySQL</td>
+                <td>PostgreSQL</td>
+                <td></td>
+            </tr>
+        </table>
+    </aside>
+    <main>
+        <div class="project">
+            <h2 class="project-title">Projects</h2>
+            <div class="box-container">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
