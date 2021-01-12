@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One True Layout</title>
+    <style>
+        /* 
+        1. 자손에 float 속성을 적용한다.
+        2. 부모의 overflow 속성에 hidden을 적용한다.
+         */
+        body {  
+            width: 500px;
+            margin: 10px auto;
+        }
+
+        #middle {
+            overflow: hidden;
+        }
+        #left {
+            float: left;
+            width: 150px;
+            background: red;
+        }
+        #right {
+            float: right;
+            width: 350px;
+            background:blue;
+        }
+        #top {
+            background: green;
+        }
+        #bottom {
+            background: purple;
+        }
+    </style>
+</head>
+<body>
+    <div id="top">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, modi!</div>
+    <div id="middle">
+        <div id="left">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
+        <div id="right">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptates dolorum voluptate inventore maxime expedita distinctio quod? Laborum, optio! Officia nihil possimus rem, illo quasi quae sunt neque distinctio impedit corporis ab repellendus exercitationem nisi explicabo dolor mollitia est necessitatibus! Pariatur laboriosam asperiores rerum, natus enim provident sed laudantium molestias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, eveniet dolorem maxime alias cumque atque aspernatur sunt illum quia asperiores? Lorem ipsum dolor sit amet consectetur adipisicing.</div> 
+    </div>
+    <div id="bottom">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium unde, magnam voluptatem quis excepturi quos facere nobis ad soluta. Sint.</div>
+</body>
+</html>

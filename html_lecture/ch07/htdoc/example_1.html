@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float With Overflow</title>
+    <style>
+        /* 자손에게 float속성을 지정하고, 부모의 overflow속성에는 hidden 키워드를 적용한다. */
+        div.container {
+            overflow: hidden;
+        }
+
+        div.item {
+            float: left;
+            margin: 0 3px;
+            padding: 10px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">메뉴 -1</div>
+        <div class="item">메뉴 -2</div>
+        <div class="item">메뉴 -3</div>
+        <div class="item">메뉴 -4</div>
+    </div>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe eius numquam totam ea neque explicabo ad, dicta atque porro nisi pariatur nobis minus natus repellendus ipsa voluptatibus, in mollitia dolor harum fugit. Vero facilis animi, ducimus dolorem esse omnis numquam voluptas sunt reiciendis ipsa dicta quia ad accusamus, alias ea molestias facere tenetur necessitatibus? Asperiores pariatur eius aspernatur eligendi autem, sequi at eum porro amet consequatur officia, labore nam recusandae ea deserunt, repellendus praesentium molestias quidem laboriosam excepturi animi mollitia aperiam voluptas nesciunt. Odio numquam, veritatis, autem temporibus magni harum quisquam maiores nemo dicta dolores quis, eius est non quaerat.</p>
+</body>
+</html>
