@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Toilet</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="box">화장실내부</div>
+            <div class="box">변기칸</div>
+        </div>
+    </header>
+    <section>
+        <form action="" method="post">
+             <!-- 아이콘 -->
+            <label for="name">건물명 및 층</label>
+            <input type="text" value="건물명 및 층">
+            <hr>
+            <p>화장실 정보</p>
+            <div class="disabled">
+                <!-- 아이콘 -->
+                <img src="" alt="">
+                <label for="name">장애인칸 포함</label>
+                <input type="radio" id="yesDisabled" name="disabled" value="yesDisabled">
+                <label for="yesDisabled">Y</label>
+                <input type="radio" id="noDisabled" name="disabled" value="noDisabled">
+                <label for="noDisabled">N</label>
+            </div>
+            <div class="public">
+                <!-- 아이콘 -->
+                <img src="" alt="">
+                <label for="name">외부인 개방</label>
+                <input type="radio" id="yesPublic" name="public" value="yesPublic">
+                <label for="yesPublic">Y</label>
+                <input type="radio" id="noPublic" name="public" value="noPublic">
+                <label for="noPublic">N</label>
+            </div>
+            <div class="diaper">
+                <!-- 아이콘 -->
+                <img src="" alt="">
+                <label for="name">기저귀 교환대</label>
+                <input type="radio" id="yesDiaper" name="diaper" value="yesDiaper">
+                <label for="yesDiaper">Y</label>
+                <input type="radio" id="noDiaper" name="diaper" value="noDiaper">
+                <label for="noDiaper">N</label>   
+            </div>
+            <div class="separation">
+                <!-- 아이콘 -->
+                <img src="" alt="">
+                <label for="name">남녀구분</label>
+                <input type="radio" id="yesSeparation" name="separation" value="yesSeparation">
+                <label for="yesSeparation">Y</label>
+                <input type="radio" id="noSeparation" name="separation" value="noSeparation">
+                <label for="noSeparation">N</label>   
+            </div>
+            <div class="sink">
+                <!-- 아이콘 -->
+                <img src="" alt="">
+                <label for="sink">세면대</label>
+                <input type="radio" id="yesSink" name="sink" value="yesSink">
+                <label for="yesSink">Y</label>
+                <input type="radio" id="noSink" name="sink" value="noSink">
+                <label for="noSink">N</label>   
+            </div>
+            <hr>
+            <label for="direction">찾아가는 방법</label>
+            <input type="text" name="direction" value="찾아가는 방법">
+            <hr>
+            <label for="safetyLevel">화장실 안전도</label>
+            <select name="safetyLevel" id="safetyLevel">
+                <option value="">화장실 안전도</option>
+                <option value="worst">Worst</option>
+                <option value="bad">Bad</option>
+                <option value="average">Average</option>
+                <option value="good">Good</option>
+                <option value="best">Best</option>
+            </select>
+            <hr>
+            <label for="name">등록자</label>
+            <input type="text" value="등록자">
+            <hr>
+            <input type="submit" value="저장">
+            
+        </form>
+    </section>
+</body>
+</html>
