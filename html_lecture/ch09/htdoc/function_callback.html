@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+    <script>
+        function callTenTimes(call) {
+            for (let i = 0; i < 100; i++) {
+                call();
+            }
+        }
+
+        let callback = () => {
+            console.log("함수호출");
+        }
+
+        callTenTimes(callback);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
