@@ -1,0 +1,49 @@
+<h2>Homeplus</h2>
+
+<h4>회원가입</h4>
+<form action="" method="post" id="registration">
+    <input type="text" name="name" value="이름">
+    <br>
+    <input type="text" name="year" value="생년(4자)">
+    <select id="month" name="month">
+        <option value="">월</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select>
+    <select id="day" name="day">
+        <option value="">일</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select>
+    <br>
+    <input type="email" name="email1" value="이메일">
+    <span> @ </span>
+    <select id="email2" name="email-selection">
+        <option value="">직접입력</option>
+        <option value="naver.com">네이버</option>
+        <option value="daum.net">다음</option>
+    </select>
+    <br>
+    <select id="phone-first-numbers" name="phone-first-numbers">
+        <option value="010">010</option>
+        <option value="011">011</option>
+        <option value="016">016</option>
+        <option value="017">017</option>
+        <option value="017">070</option>
+    </select>
+    <input type="text" name="phone-numbers" value="휴대전화번호">
+    <button>인증요청</button>
+    <br>
+    <input type="text" name="id" value="아이디 영문 소문자, 숫자 6-12자리(첫글자는 영문만 가능)">
+    <br><!--글자 크기를 어떻게 다르게 할까요???-->
+    <input type="text" name="password" value="비밀번호 (영문, 숫자, 특수문자 조합으로 8-20자)">
+    <br>
+    <input type="text" name="confirm-password" value="비밀번호 재확인">
+    <br>
+</form>    
+
+<button type="submit" form="registration" value="submit">가입하기</button>
