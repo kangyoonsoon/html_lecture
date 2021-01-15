@@ -1,0 +1,20 @@
+<!DOCTYPE unspecified PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>Event Basic</title>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('a').click(function(event){
+				alert('click');
+				
+				//기본 이벤트 제거
+				event.preventDefault();
+			});
+		});
+	</script>
+</head>
+<body>
+	<a href="https://www.naver.com">naver</a>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE unspecified PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('img').attr({
+				alt: 'jQuery 라이브러리를 사용한 속성 지정',
+				src: function(w, h){
+					let width = (w  + 1) * 100;
+					let height = (h + 1) * 100;
+					console.log('w: '+  w);
+					console.log('h: '+  h); // h 값은 없다. = 0
+					return 'http://placehold.it/' + width + 'x' + height;
+				}
+			})
+		})
+	</script>
+</head>
+<body>
+<img alt="" src="">
+<img alt="" src="">
+<img alt="" src="">
+</body>
+</html>

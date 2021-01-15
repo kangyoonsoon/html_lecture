@@ -1,0 +1,35 @@
+<!DOCTYPE unspecified PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>jQuery Basic</title>
+	<style>
+		#box {
+			width:100px;
+			height: 100px;
+			background-color: red;
+		}
+		
+		#box.hover {
+			background-color: blue;
+			border-radius: 50px;
+		}
+	</style>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script type="text/javascript">
+	//https://api.jquery.com/hover/#hover1
+		$(document).ready(function(){
+			$('#box').hover(function(){
+				//스타일 변경
+				$(this).addClass('hover');
+			}, 
+			function(){  // 두번째 매개변수
+				// 스타일 변경
+				$(this).removeClass('hover');
+			});
+		})
+	</script>
+</head>
+<body>
+	<div id="box"></div>
+</body>
+</html>

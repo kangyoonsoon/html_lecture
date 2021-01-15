@@ -1,0 +1,28 @@
+<!DOCTYPE unspecified PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>Event Basic</title>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#box').css({
+				width: 100,
+				height: 100,
+				background: 'red',
+				position: 'absolute',
+				left: 10,
+				top: 10
+			}).animate({
+				height: '+=400',
+				width: '-=50',
+				left: '+=300',
+				top: '+=50',
+				opacity: 0.5
+			}, 500)
+		})
+	</script>
+</head>
+<body>
+	<div id="box"></div>
+</body>
+</html>
