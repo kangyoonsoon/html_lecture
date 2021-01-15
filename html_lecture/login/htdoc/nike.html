@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Nike Sign Up</title>
+</head>
+<body>
+    <form action="" method="post" id="registration">
+        <h3>Nike</h3>
+        <h4>회원가입</h4>
+        <div>
+            <button>카카오 계정으로 신규 가입</button>
+        </div>
+        <div>
+            <button>페이스북 계정으로 신규 가입</button>
+        </div>
+        <hr>
+        <div>
+            <input type="text" name="id" placeholder="사용하실 ID를 입력해주세요(수신 가능 E-mail)">
+        </div>
+        <div>
+            <input type="text" name="password" placeholder="영문+숫자+특수문자 8-16자리(특수문자 괄호()는 사용불가)">
+        </div>
+        <!-- Type="password"로 하니까 value 값에 설명을 쓸 수 없습니다. 해결책?? value 대신 placeholder 사용해야 한다.-->
+        <div>
+            <input type="password" name="confirm-password" placeholder="패스워드를 다시 입력해 주세요.">    
+        </div>
+        <div>
+            <input type="password" name="name" placeholder="이름을 입력해주세요.">
+        </div>
+        <div>
+            <input type="text" name="phone" placeholder="휴대폰 번호 '-'표 없이 입력해주세요.">
+        </div>
+    </form>
+    <button type="submit" form="registration" placeholder="submit">회원가입</button>
+</body>
+</html>
