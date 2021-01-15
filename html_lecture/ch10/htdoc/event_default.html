@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Traditional Event - Default Event</title>
+    <script>
+        window.onload = function(){
+            const button = document.getElementById('button');
+            //이벤트 연결
+            button.onclick = function(){
+                //기본 이벤트 제거
+                return false;    
+            }
+        };
+    </script>
+</head>
+<body>
+    <a id="button" href="http://hanbit.co.kr">버튼</a>
+</body>
+</html> 

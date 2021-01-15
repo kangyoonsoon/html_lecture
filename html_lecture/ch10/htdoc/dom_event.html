@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document Object Model</title>
+</head>
+<body>
+    <h1>Process - 1</h1>
+    <h2>Process - 2</h2>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <script>
+        // 웹 브라우저는 HTML 코드를 위쪽에서 아래쪽으로 실행합니다.
+        // 해결방법 2.
+        window.onload = function (){
+            document.querySelector('h1').style.backgroundColor = 'red';
+            document.querySelector('h2').style.color = 'red';
+        }
+    </script>
+</body>
+</html>

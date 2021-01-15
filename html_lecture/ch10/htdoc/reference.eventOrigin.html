@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Traditional Event</title>
+</head>
+<body>
+    <h2 id="add-text">시작</h2>
+    <button id="button">button - </button>
+    <script>
+        document.getElementById('button').onclick = function() {
+            this.textContent = this.textContent + '*';
+        };
+        document.getElementById('add-text').onclick = function() {
+           this.innerHTML = this.innerHTML + " chiken";
+        
+        }
+    </script>
+</body>
+</html> 

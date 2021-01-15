@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Basic</title>
+    <script>
+        window.onload = function(){
+            document.body.innerHTML = '<h1>Hello</h1>';
+            document.body.setAttribute('data-custom', 'value');
+            document.h1.setAttribute('data-custom', 'value');
+
+            let dataCustom = document.body.getAttribute('data-custom');
+            alert(dataCustom);
+        };
+    </script>
+</head>
+<body>
+    <img id="image" alt="no image">
+</body>
+</html>

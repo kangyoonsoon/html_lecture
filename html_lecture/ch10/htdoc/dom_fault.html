@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document Object Model</title>
+    <script>
+        // 웹 브라우저는 HTML 코드를 위쪽에서 아래쪽으로 실행합니다.
+        document.querySelector('h1').style.backgroundColor = 'red';
+        document.querySelector('h2').style.color = 'red';
+
+        // Uncaught TypeError: Cannot read property 'sytle' of null at dom_fault.html:8
+    </script>
+</head>
+<body>
+    <h1>Process - 1</h1>
+    <h2>Process - 2</h2>
+    <p>Lorem ipsum dolor sit amet.</p>
+</body>
+</html>

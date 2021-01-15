@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Basic</title>
+    <script>
+        window.onload = () => {
+            let clock = document.getElementById('clock');
+            setInterval(() => {
+                let now = new Date();
+                clock.innerHTML = now.toString();
+            }, 1000);    
+        }
+    </script>
+</head>
+<body>
+    <h1 id="clock"></h1>
+</body>
+</html>
