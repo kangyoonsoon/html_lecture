@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+input  {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+select  {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+
+header {
+    height: 80px;
+    background: rgb(226, 41, 41);
+    color: beige;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.header-wrapper .logo {
+    width: 240px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .header-wrapper {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.header-wrapper ul {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 100px;
+}
+
+.header-wrapper ul li {
+    list-style: none;
+    
+}
+header .header-wrapper h6 {
+    color: white;
+}
+
+header .header-wrapper ul li {
+    padding: 10px;
+}
+
+nav ul {
+    margin-top: 10px;
+    margin-bottom: 20px; 
+    margin-left: 80px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav ul li {
+    color: black;
+    font-size: 0.8rem;
+    list-style: none;
+}
+
+.search-box-wrapper {
+    width: 100%;
+    height: 330px;
+    background-image: url("../images/hotel/beach_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.search-box-wrapper .search-box-text {
+    margin-left: 150px;
+}
+
+.search-box-wrapper ul {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.search-box-wrapper .search-box-text ul li {
+    margin: 20px 0;
+    color: white;
+    list-style: none;
+    font-size: 0.7rem;
+}
+
+.search-box-wrapper h1 {
+    margin-top: 10px;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.search-box-wrapper h2 {
+    margin-top: 10px;
+    color: white;
+}
+
+.search-box-wrapper .search-box-container {
+    
+    /* width: 100%; */
+    height: 120px;
+    background-color: rgb(230, 230, 230);
+    /* margin: 0 auto; */
+    margin: 0 150px; 
+    margin-top: 20px;
+    border: 2px soild black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.7rem;
+}
+
+.search-box-wrapper .search-box-container .container1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 300px;
+    margin: 10px;
+}
+
+.search-box-wrapper .search-box-container .container2 {
+    width: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.search-box-wrapper .search-box-container .container3 {
+    width: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.search-box-wrapper .search-box-container .container4 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.search-box-wrapper .search-box-container .container5 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.search-box-wrapper .search-box-container .container6 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.search-box-wrapper .search-box-container .container7 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.search-box-wrapper .search-box-container .container8 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.search-box-wrapper .search-box-container .container8 button {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgb(52, 52, 214);
+    color: white;
+}
+
+
+/* ad */
+
+
+.ad {
+    margin: 10px 250px;
+    height: 20xpx;
+    border: 1px soild black;
+    color: black;
+    /* background-color: aqua; */
+    border: solid 1px black;
+}
+
+.ad div {
+    height: 40px;
+}
+
+.ad div ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0px 150px;
+   
+}
+
+.ad div ul div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ad div ul div {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.ad div ul div:nth-child(1) {
+
+    color: green;
+}
+.ad div ul div:nth-child(2) {
+
+    color: green;
+}
+.ad div ul div:nth-child(3) {
+
+    color: rgb(13, 0, 128);
+}
+
+
+/* area */
+.area .area-container {
+    width: 900px;
+    height: 40px;
+    margin: 0 auto;
+    /* background: lightgray; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+
+}
+.area .area-container ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    margin-right: 100px;
+}
+.area .area-container ul div {
+    width: 55px;
+    height: 25px;
+    background-color: rgb(225, 225, 231);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+}
+.area .area-container ul div li {
+    /* margin: 0 auto; */
+    vertical-align: middle;
+    font-size: 0.7rem;
+    color: darkblue;
+    font-weight: bold;
+}
+
+/* item-container-wrapper */
+
+.item-container-wrapper {
+    width: 1100px;
+    height: 850px;
+    background-color: rgb(245, 238, 238);
+    margin: 0 auto;
+    
+}
+.item-container-wrapper .title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.item-container-wrapper .title h1 {
+    margin: 15px;
+}
+.item-container-wrapper .title button {
+    margin: 15px;
+    border: none;
+    background: rgb(35, 48, 230);
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.item-container-wrapper .item-container {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+}
+
+.item-container-wrapper .item-container .item {
+    width: 252px;
+    height: 370px;
+    background: rgb(251, 247, 247);
+    margin: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.item-container-wrapper .item-container .item .top-item img {
+    width: 100%;
+    height: 150px;
+
+}
+
+.item-container-wrapper .item-container .item .top-item p:nth-child(2){
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+.item-container-wrapper .item-container .item .top-item p:nth-child(3){
+    font-size: 0.5rem;
+    margin-top: 3px;
+    /* font-weight: bold; */
+}
+
+.item-container-wrapper .item-container .item .top-item p:nth-child(4){
+    font-size: 1rem;
+    color: darkgreen;
+    font-weight: bold;
+    margin-top: 3px;
+
+}
+
+.item-container-wrapper .item-container .item .bottom-item  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 70px;
+}
+
+.item-container-wrapper .item-container .item .bottom-item button {
+    border: none;
+    background: rgb(251, 252, 255);
+    color: blue;
+    border: 1px solid blue;
+    padding: 2px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 900;
+    cursor: pointer;
+}
