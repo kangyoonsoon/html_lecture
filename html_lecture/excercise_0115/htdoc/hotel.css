@@ -64,6 +64,13 @@ header .header-wrapper {
     list-style: none;
     
 }
+
+.header-wrapper ul li img {
+    /* height: -webkit-fill-available; */
+    height: 14px;
+}
+
+
 header .header-wrapper h6 {
     color: white;
 }
@@ -324,15 +331,23 @@ nav ul li {
 }
 
 .item-container-wrapper .item-container .item {
-    width: 252px;
+    width: 238px;
     height: 370px;
     background: rgb(251, 247, 247);
-    margin: 10px;
-
+    margin: 5px;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    border-radius: 10px;
+    border: solid 2px rgb(251, 247, 247);;
 }
+
+.item-container-wrapper .item-container .item:hover {
+    border: solid 2px blue;
+    border-radius: 10px;
+}
+
 
 .item-container-wrapper .item-container .item .top-item img {
     width: 100%;

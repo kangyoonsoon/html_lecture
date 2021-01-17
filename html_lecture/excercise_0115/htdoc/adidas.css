@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+/* header */
+/* 헤더 그래디언트 적용해야 함... */
+header {
+    width: 100%;
+    height: 30px;
+    background: rgb(17, 17, 17);
+}
+
+header .top-header {
+    
+}
+
+header .top-header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0 300px;
+}
+
+header .top-header ul li {
+    list-style: none;
+    margin: 3px 10px;
+    font-size: 15px;
+    align-items: center;
+    color: white;
+}
+
+
+/* nav */
+nav {
+    width: 100%;
+    height: 40px;
+    background: #000;
+    /* color:white; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .nav-left ul {
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 300px;
+}
+
+/* 영문 구글 폰트 적용!!! */
+nav .nav-left ul li {
+    margin: 0 5px;
+}
+
+nav .nav-left ul img{
+    width: 10%;
+    height: 10%;
+    margin-bottom: 30px;
+}
+nav .nav-right ul {
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 300px;
+}
+
+nav .nav-right ul li {
+    margin: 0 10px;
+}
+
+/* back-button */
+.back-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 300px;
+}
+
+/* category-title */
+.category-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-left: 150px;
+    margin-right: 150px; */
+    margin: 10px 300px;
+}
+
+.category-title > h4 {
+    font-weight: bold;
+}
+
+.category-title > select {
+    width: 250px;
+    height: 40px;
+    font-weight: bold;
+}
+
+/* content-wrapper */
+.content-wrapper{
+    overflow: hidden;
+}
+/* asdie */
+aside {
+    float: left;
+    width: 250px;
+    height: 2500px;
+    /* background: #a4abc4; */
+    margin-left: 300px;
+    border: solid lightgray 0.3px;
+  }
+/* section */
+section {
+    float: right;
+    width: 1050px;
+    height: 2500px;
+    /* background: #dcddeb; */
+    margin-right: 300px;
+}
+
+section .card-deck-mystyle .card-columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:flex-start;
+    flex-wrap:  wrap;
+}
+section .card-deck-mystyle .card-columns .card {
+    width: 245px;
+    /* background-color: chartreuse; */
+} 
+
+section .card-deck-mystyle .card-columns .card .card-body p {
+    font-size: 14px;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+section .card-deck-mystyle .card-columns .card .card-body .card-title {
+    font-weight: bold;
+}
+section .card-deck-mystyle .card-columns .card .card-body .card-pop {
+    color: rgb(42, 42, 194);
+    font-weight:bolder;
+    /* margin: 2px 10px; */
+    /* background-color: aqua;   */
+    /* padding: 5px 10px; */    
+}
+/* footer */
+footer {
+    clear: both;
+    width: 100%;
+    height: 100px;
+    background: #020008;
+}
